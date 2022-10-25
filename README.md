@@ -59,7 +59,7 @@ _Filename example_: 02-01-06-01-01-01-11.mp4
 
     11th Actor (11)
 
-    Female, as the actor ID number is even.
+    Female, as the actor ID number is odd.
 ## Block Diagram and Features List
 
 ![Block Diagram](images/Screenshot1.png)
