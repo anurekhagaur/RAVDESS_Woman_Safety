@@ -62,7 +62,7 @@ _Filename example_: 02-01-06-01-01-01-11.mp4
     Female, as the actor ID number is even.
 ## Block Diagram and Features List
 
-![Block Diagram](https://prnt.sc/EIfFFHHuM0JO)
+![Block Diagram](images/Screenshot1.png)
 
 Following features were extracted using the warbleR and the seewave packages in R.
 
@@ -99,20 +99,20 @@ Feature ID|	Feature Name|	Description
 ## Visualization Plots
 
 _Analyzing the amplitude of the (a) Log – Amplitude spectrogram (b) Log – Frequency spectrogram of a speech signal. The darker regions mark the regions of high energy._
-![WESAD Audio Spectrogram](https://prnt.sc/I6IVAJ1bfX4J)
+![WESAD Audio Spectrogram](images/Screenshot2.png)
 
 _Plot of Zero – crossing rate magnified from 9000 to 9050 for an audio sample._
-![Zero Crossing Rate of an audio sample](https://prnt.sc/yKIbbBjDLTZ3)
+![Zero Crossing Rate of an audio sample](images/Screenshot3.png)
 
 _MFCCs values extracted using Librosa along with unique labels_
-![MFCC Values Extraction](https://prnt.sc/3pWwffJPtTqL)
+![MFCC Values Extraction](images/Screenshot4.png)
 
 _(a) Boxplot for emotional intensity. (b) Violin plot showing the Quartiles and mean for each type of emotion. (c) Frames vs Mean Normalized MFCC values for two audio samples of anger emotion for each gender. The graph shows clear demarcation between the emotional states in both male and female categories._
-![MFCC Emotional Intensity](https://prnt.sc/iSgDOyGvUraA)
+![MFCC Emotional Intensity](images/Screenshot5.png)
 
 _1D - KDE Plots for Gender Based Classification_
-![1D - KDE Plots (1)](https://prnt.sc/pW5uY7O_PKp2)
-![1D - KDE Plots (2)](https://prnt.sc/w48pqp67s2lp)
+![1D - KDE Plots (1)](images/Screenshot6.png)
+![1D - KDE Plots (2)](images/Screenshot7.png)
 * Differentiating peaks can be observed using 1D – KDE plots for various acoustic features like SFM, Q25 …etc.
 * For a few of the other measures like meanfreq, meandom, median …etc we can observe non – differentiating peaks suggesting that they would not be good for gender based classification task.
 
@@ -121,10 +121,10 @@ _1D - KDE Plots for Gender Based Classification_
 
 ### For classification of Male and Female voice
 _Result of binary classification of Male and Female classification using (a) Decision Tree Classifier (b) XGBoost (Extreme Gradient Boost). The 0 indicates female class and 1 indicates the male class._
-![Male Female Decision Tree and XGBoost Classifier](https://prnt.sc/sqn3cOw1OiWo)
+![Male Female Decision Tree and XGBoost Classifier](images/Screenshot8.png)
 
 _(a) Result for classification of emotions using Support Vector Classifier (b) Emotion Classification result using XGBoost._
-![Emotion classification SVM and XGBoost Classifier](https://prnt.sc/tInY054G57qK)
+![Emotion classification SVM and XGBoost Classifier](images/Screenshot9.png)
 
 * Creation of Confusion Matrix to evaluate the performance of Classification model.
 * For Male and Female voice classification, we were successfully able to train the model and following results were observed:
@@ -135,5 +135,5 @@ _(a) Result for classification of emotions using Support Vector Classifier (b) E
     * Using XGBoost, we were able to get 69.90% accuracy.
 
 _Confusion Matrix_
-![Confusion Matrix M/F](https://prnt.sc/I6meVpYTjs3w)
-![Confusion Matrix Emotion](https://prnt.sc/RX1xk5gnL47v)
+![Confusion Matrix M/F](images/Screenshot10.png)
+![Confusion Matrix Emotion](images/Screenshot11.png)
