@@ -108,11 +108,18 @@ _MFCCs values extracted using Librosa along with unique labels_
 ![MFCC Values Extraction](images/Screenshot4.png)
 
 _(a) Boxplot for emotional intensity. (b) Violin plot showing the Quartiles and mean for each type of emotion. (c) Frames vs Mean Normalized MFCC values for two audio samples of anger emotion for each gender. The graph shows clear demarcation between the emotional states in both male and female categories._
-![MFCC Emotional Intensity](images/Screenshot5.png)
 
+<p align="center">
+<img width="900" height="1200" src="images/Screenshot5.png">
+</p>
+    
 _1D - KDE Plots for Gender Based Classification_
 ![1D - KDE Plots (1)](images/Screenshot6.png)
-![1D - KDE Plots (2)](images/Screenshot7.png)
+
+<p align="center">
+<img width="900" height="900" src="images/Screenshot7.png">
+</p>
+
 * Differentiating peaks can be observed using 1D – KDE plots for various acoustic features like SFM, Q25 …etc.
 * For a few of the other measures like meanfreq, meandom, median …etc we can observe non – differentiating peaks suggesting that they would not be good for gender based classification task.
 
