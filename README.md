@@ -15,6 +15,18 @@ emotional states - Anger, Calm, Disgust, Fear, Happy, Neutral, Sad and Surprise.
 Our approach differs due to the fact that we did not just focus on binary classes.
 We feel humans are highly expressive and have wide range of emotional states. Hence, it is 
 very improtant to consider as many emotional states as possible.
+
+## Installation
+Requirements:
+* Python >= 3.8
+* Jupyter Notebook
+
+We recommend using conda for python environment management and create a virtual environment.
+Create your python environment and install dependencies:
+
+
+    conda create -n ravdess_analysis python=3.8 -y
+
 ## Dataset
 This dataset has a few features that make it suitable for this project, including its size 
 is sufficient for the model to be trained successfully. A model performs better the more 
