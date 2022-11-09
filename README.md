@@ -26,6 +26,16 @@ Create your python environment and install dependencies:
 
 
     conda create -n ravdess_analysis python=3.8 -y
+    
+Activate the environment by:
+
+
+    conda activate ravdess_analysis
+    
+You may download the requirements using the requirements.txt file by following this command:
+
+
+    pip install -r requirements.txt
 
 ## Dataset
 This dataset has a few features that make it suitable for this project, including its size 
